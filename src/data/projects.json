@@ -1,0 +1,98 @@
+[
+    {
+        "title": "Saas login Screen",
+        "image": "",
+        "description": "",
+        "githubLink": "",
+        "liveLink": "",
+        "techStack": ["HTML", "CSS", "TypeScript", "Tailwind", "React", "Firebase", "RestAPI"]
+    },
+    {
+        "title": "Scorecounter App",
+        "image": "",
+        "description": "",
+        "githubLink": "",
+        "liveLink": "",
+        "techStack": ["HTML", "CSS"]
+    },
+    {
+        "title": "Digital Bio Card",
+        "image": "",
+        "description": "",
+        "githubLink": "",
+        "liveLink": "",
+        "techStack": ["HTML", "CSS"]
+    },
+    {
+        "title": "React Travel Journal",
+        "image": "",
+        "description": "",
+        "githubLink": "",
+        "liveLink": "",
+        "techStack": ["HTML", "CSS", "React"]
+    },
+    {
+        "title": "HoriSEOn",
+        "image": "",
+        "description": "",
+        "githubLink": "",
+        "liveLink": "",
+        "techStack": ["HTML", "CSS"]
+    },
+    {
+        "title": "Designer Portfolio",
+        "image": "",
+        "description": "",
+        "githubLink": "",
+        "liveLink": "",
+        "techStack": ["HTML", "CSS", "Markdown", "Hugo"]
+    },
+    {
+        "title": "Coll-hub",
+        "image": "",
+        "description": "",
+        "githubLink": "",
+        "liveLink": "",
+        "techStack": ["JavaScript", "NodeJS", "HTML", "CSS", "Bootstrap"]
+    },
+    {
+        "title": "Better Readme",
+        "image": "",
+        "description": "",
+        "githubLink": "",
+        "liveLink": "",
+        "techStack": ["JavaScript", "NodeJS", "Markdown"]
+    },
+    {
+        "title": "Dinner and a Movie",
+        "image": "",
+        "description": "",
+        "githubLink": "",
+        "liveLink": "",
+        "techStack": ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery", "RestAPI"]
+    },
+    {
+        "title": "OpenWeatherPal",
+        "image": "",
+        "description": "",
+        "githubLink": "",
+        "liveLink": "",
+        "techStack": ["HTML", "CSS", "Bootstrap", "JQuery", "RestAPI"]
+    },
+    {
+        "title": "Workday Scheduler Online",
+        "image": "",
+        "description": "",
+        "githubLink": "",
+        "liveLink": "",
+        "techStack": ["HTML", "CSS", "JQuery"]
+    },
+    {
+        "title": "Password Generator",
+        "image": "",
+        "description": "",
+        "githubLink": "",
+        "liveLink": "",
+        "techStack": ["HTML", "CSS", "JavaScript"]
+    }
+]
