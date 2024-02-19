@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "skillName": "HTML"
+    },
+    {
+        "id": 2,
+        "skillName": "CSS"
+    },
+    {
+        "id": 3,
+        "skillName": "JavaScript"
+    },
+    {
+        "id": 4,
+        "skillName": "NodeJS"
+    },
+    {
+        "id": 5,
+        "skillName": "JQuery"
+    },
+    {
+        "id": 6,
+        "skillName": "TypeScript"
+    },
+    {
+        "id": 7,
+        "skillName": "Vite"
+    },
+    {
+        "id": 8,
+        "skillName": "React"
+    },
+    {
+        "id": 9,
+        "skillName": "Git"
+    },
+    {
+        "id": 10,
+        "skillName": "Bootstrap"
+    },
+    {
+        "id": 11,
+        "skillName": "Tailwind"
+    },
+    {
+        "id": 12,
+        "skillName": "Markdown"
+    },
+    {
+        "id": 12,
+        "skillName": "RestAPI"
+    },
+    {
+        "id": 14,
+        "skillName": "Figma"
+    }
+]
