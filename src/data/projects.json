@@ -1,98 +1,167 @@
 [
     {
+        "id": 1,
         "title": "Saas login Screen",
-        "image": "",
-        "description": "",
-        "githubLink": "",
-        "liveLink": "",
-        "techStack": ["HTML", "CSS", "TypeScript", "Tailwind", "React", "Firebase", "RestAPI"]
+        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
+        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "TypeScript",
+            "Tailwind",
+            "React",
+            "Firebase",
+            "RestAPI"
+        ]
     },
     {
+        "id": 2,
         "title": "Scorecounter App",
-        "image": "",
-        "description": "",
-        "githubLink": "",
-        "liveLink": "",
-        "techStack": ["HTML", "CSS"]
+        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
+        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "techStack": [
+            "HTML",
+            "CSS"
+        ]
     },
     {
+        "id": 3,
         "title": "Digital Bio Card",
-        "image": "",
-        "description": "",
-        "githubLink": "",
-        "liveLink": "",
-        "techStack": ["HTML", "CSS"]
+        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
+        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "techStack": [
+            "HTML",
+            "CSS"
+        ]
     },
     {
+        "id": 4,
         "title": "React Travel Journal",
-        "image": "",
-        "description": "",
-        "githubLink": "",
-        "liveLink": "",
-        "techStack": ["HTML", "CSS", "React"]
+        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
+        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "React"
+        ]
     },
     {
+        "id": 5,
         "title": "HoriSEOn",
-        "image": "",
-        "description": "",
-        "githubLink": "",
-        "liveLink": "",
-        "techStack": ["HTML", "CSS"]
+        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
+        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "techStack": [
+            "HTML",
+            "CSS"
+        ]
     },
     {
+        "id": 6,
         "title": "Designer Portfolio",
-        "image": "",
-        "description": "",
-        "githubLink": "",
-        "liveLink": "",
-        "techStack": ["HTML", "CSS", "Markdown", "Hugo"]
+        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
+        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "Markdown",
+            "Hugo"
+        ]
     },
     {
+        "id": 7,
         "title": "Coll-hub",
-        "image": "",
-        "description": "",
-        "githubLink": "",
-        "liveLink": "",
-        "techStack": ["JavaScript", "NodeJS", "HTML", "CSS", "Bootstrap"]
+        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
+        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "techStack": [
+            "JavaScript",
+            "NodeJS",
+            "HTML",
+            "CSS",
+            "Bootstrap"
+        ]
     },
     {
+        "id": 8,
         "title": "Better Readme",
-        "image": "",
-        "description": "",
-        "githubLink": "",
-        "liveLink": "",
-        "techStack": ["JavaScript", "NodeJS", "Markdown"]
+        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
+        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "techStack": [
+            "JavaScript",
+            "NodeJS",
+            "Markdown"
+        ]
     },
     {
+        "id": 9,
         "title": "Dinner and a Movie",
-        "image": "",
-        "description": "",
-        "githubLink": "",
-        "liveLink": "",
-        "techStack": ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery", "RestAPI"]
+        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
+        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "JQuery",
+            "RestAPI"
+        ]
     },
     {
+        "id": 10,
         "title": "OpenWeatherPal",
-        "image": "",
-        "description": "",
-        "githubLink": "",
-        "liveLink": "",
-        "techStack": ["HTML", "CSS", "Bootstrap", "JQuery", "RestAPI"]
+        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
+        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JQuery",
+            "RestAPI"
+        ]
     },
     {
+        "id": 11,
         "title": "Workday Scheduler Online",
-        "image": "",
-        "description": "",
-        "githubLink": "",
-        "liveLink": "",
-        "techStack": ["HTML", "CSS", "JQuery"]
+        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
+        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JQuery"
+        ]
     },
     {
+        "id": 12,
         "title": "Password Generator",
-        "image": "",
-        "description": "",
-        "githubLink": "",
-        "liveLink": "",
-        "techStack": ["HTML", "CSS", "JavaScript"]
+        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
+        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
     }
 ]
