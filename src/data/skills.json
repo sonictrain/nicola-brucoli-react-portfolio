@@ -1,58 +1,67 @@
 [
     {
         "id": 1,
-        "skillName": "HTML"
+        "skillName": "HTML",
+        "techIcon": "html5"
     },
     {
         "id": 2,
-        "skillName": "CSS"
+        "skillName": "CSS",
+        "techIcon": "css3"
     },
     {
         "id": 3,
-        "skillName": "JavaScript"
+        "skillName": "JavaScript",
+        "techIcon": "js"
     },
     {
         "id": 4,
-        "skillName": "NodeJS"
+        "skillName": "NodeJS",
+        "techIcon": "nodejs"
     },
     {
         "id": 5,
-        "skillName": "JQuery"
+        "skillName": "JQuery",
+        "techIcon": "jquery"
     },
     {
         "id": 6,
-        "skillName": "TypeScript"
+        "skillName": "TypeScript",
+        "techIcon": "typescript"
     },
     {
         "id": 7,
-        "skillName": "Vite"
+        "skillName": "Vite",
+        "techIcon": "vitejs"
     },
     {
         "id": 8,
-        "skillName": "React"
+        "skillName": "React",
+        "techIcon": "reactjs"
     },
     {
         "id": 9,
-        "skillName": "Git"
+        "skillName": "Git",
+        "techIcon": "git"
     },
     {
         "id": 10,
-        "skillName": "Bootstrap"
+        "skillName": "Bootstrap",
+        "techIcon": "bootstrap5"
     },
     {
         "id": 11,
-        "skillName": "Tailwind"
+        "skillName": "Tailwind",
+        "techIcon": "tailwindcss"
     },
     {
         "id": 12,
-        "skillName": "Markdown"
+        "skillName": "Markdown",
+        "techIcon": "markdown"
     },
     {
-        "id": 12,
-        "skillName": "RestAPI"
-    },
-    {
-        "id": 14,
-        "skillName": "Figma"
+        "id": 13,
+        "skillName": "Figma",
+        "techIcon": "figma"
     }
 ]
