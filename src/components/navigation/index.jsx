@@ -4,7 +4,10 @@ function Navigation() {
   return (
     <ul>
       <li>
-        <NavLink to="/" end>About</NavLink>
+        <NavLink to="/" end>Home</NavLink>
+      </li>
+      <li>
+        <NavLink to="about" end>About</NavLink>
       </li>
       <li>
         <NavLink to="skills" end>Skills</NavLink>
