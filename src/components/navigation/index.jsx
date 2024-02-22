@@ -2,23 +2,20 @@ import { NavLink } from 'react-router-dom';
 
 function Navigation() {
   return (
-    <ul>
-      <li>
+    <>
+      <div>
         <NavLink to="/" end>Home</NavLink>
-      </li>
-      <li>
-        <NavLink to="about" end>About</NavLink>
-      </li>
-      <li>
+      </div>
+      <div>
         <NavLink to="skills" end>Skills</NavLink>
-      </li>
-      <li>
+      </div>
+      <div>
         <NavLink to="projects" end>Projects</NavLink>
-      </li>
-      <li>
-        <NavLink to="contacts" end>Contacts</NavLink>
-      </li>
-    </ul>
+      </div>
+      <div>
+        <NavLink to="contactForm" end>Contacts</NavLink>
+      </div>
+    </>
   );
 }
 
