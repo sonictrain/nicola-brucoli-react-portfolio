@@ -5,7 +5,7 @@
         "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
-        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "public": true,
         "techStack": [
             "HTML",
             "CSS",
@@ -22,7 +22,7 @@
         "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
-        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "public": true,
         "techStack": [
             "HTML",
             "CSS"
@@ -34,7 +34,7 @@
         "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
-        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "public": true,
         "techStack": [
             "HTML",
             "CSS"
@@ -46,7 +46,7 @@
         "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
-        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "public": true,
         "techStack": [
             "HTML",
             "CSS",
@@ -59,7 +59,7 @@
         "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
-        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "public": true,
         "techStack": [
             "HTML",
             "CSS"
@@ -71,7 +71,7 @@
         "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
-        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "public": true,
         "techStack": [
             "HTML",
             "CSS",
@@ -85,7 +85,7 @@
         "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
-        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "public": true,
         "techStack": [
             "JavaScript",
             "NodeJS",
@@ -100,7 +100,7 @@
         "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
-        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "public": true,
         "techStack": [
             "JavaScript",
             "NodeJS",
@@ -113,7 +113,7 @@
         "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
-        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "public": true,
         "techStack": [
             "HTML",
             "CSS",
@@ -129,7 +129,7 @@
         "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
-        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "public": true,
         "techStack": [
             "HTML",
             "CSS",
@@ -144,7 +144,7 @@
         "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
-        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "public": true,
         "techStack": [
             "HTML",
             "CSS",
@@ -157,7 +157,7 @@
         "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
-        "liveLink": "https://sonictrain.github.io/Bootstrap-Portfolio/",
+        "public": true,
         "techStack": [
             "HTML",
             "CSS",
