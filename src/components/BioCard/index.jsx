@@ -7,9 +7,9 @@ const BioCard = () => {
 
     return (
         <div>
-            <h1>{name} {surname}</h1>
-            <h2>{currentRole} at {currentCompany}</h2>
-            <p>{city}</p>
+            <h1 className="text-7xl">{name} {surname}</h1>
+            <h2 className="text-2xl">{currentRole} @ <span className="text-blue-950	">{currentCompany}</span></h2>
+            <p classNAme="text-xl">{city}</p>
             <p>{shortBio}</p>
         </div>
     )
