@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 function Navigation() {
   return (
-    <>
+    <nav className='mt-16'>
       <div>
         <NavLink to="/" end>Home</NavLink>
       </div>
@@ -15,7 +15,7 @@ function Navigation() {
       <div>
         <NavLink to="contactForm" end>Contacts</NavLink>
       </div>
-    </>
+    </nav>
   );
 }
 
