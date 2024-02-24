@@ -3,6 +3,7 @@ import React from 'react';
 import Navigation from './components/Navigation';
 import Home from './pages/Home';
 import BioCard from './components/BioCard'
+import Footer from './components/Footer'
 import ContactForm from './pages/ContactForm';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
@@ -10,13 +11,16 @@ import '@fontsource/inter';
 
 function App() {
   return (
-    <div className='grid grid-cols-2 h-dvh'>
+    <div className='grid grid-cols-2 h-dvh bg-blue-900 text-slate-200'>
       <Router>
-        <div className='bg-blue-400 overflow-y-auto flex flex-col h-screen justify-center'>
+        <div className='overflow-y-auto flex flex-col h-screen justify-between p-20'>
+          <div>
           <BioCard />
           <Navigation />
+          </div>
+          <Footer />
         </div>
-        <div className='bg-blue-200 overflow-y-auto'>
+        <div className='overflow-y-auto'>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='contactForm' element={<ContactForm />} />
@@ -30,3 +34,5 @@ function App() {
 }
 
 export default App;
+
+// px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0
