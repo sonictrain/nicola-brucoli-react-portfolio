@@ -2,66 +2,79 @@
     {
         "id": 1,
         "skillName": "HTML",
-        "techIcon": "html5"
+        "techIcon": "html5",
+        "featured": false
     },
     {
         "id": 2,
         "skillName": "CSS",
-        "techIcon": "css3"
+        "techIcon": "css3",
+        "featured": false
     },
     {
         "id": 3,
         "skillName": "JavaScript",
-        "techIcon": "js"
+        "techIcon": "js",
+        "featured": true
     },
     {
         "id": 4,
         "skillName": "NodeJS",
-        "techIcon": "nodejs"
+        "techIcon": "nodejs",
+        "featured": false
     },
     {
         "id": 5,
         "skillName": "JQuery",
-        "techIcon": "jquery"
+        "techIcon": "jquery",
+        "featured": false
     },
     {
         "id": 6,
         "skillName": "TypeScript",
-        "techIcon": "typescript"
+        "techIcon": "typescript",
+        "featured": false
     },
     {
         "id": 7,
         "skillName": "Vite",
-        "techIcon": "vitejs"
+        "techIcon": "vitejs",
+        "featured": false
     },
     {
         "id": 8,
         "skillName": "React",
-        "techIcon": "reactjs"
+        "techIcon": "reactjs",
+        "featured": true
     },
     {
         "id": 9,
         "skillName": "Git",
-        "techIcon": "git"
+        "techIcon": "git",
+        "featured": false
     },
     {
         "id": 10,
         "skillName": "Bootstrap",
-        "techIcon": "bootstrap5"
+        "techIcon": "bootstrap5",
+        "featured": false
     },
     {
         "id": 11,
         "skillName": "Tailwind",
-        "techIcon": "tailwindcss"
+        "techIcon": "tailwindcss",
+        "featured": false
     },
     {
         "id": 12,
         "skillName": "Markdown",
-        "techIcon": "markdown"
+        "techIcon": "markdown",
+        "featured": false
     },
     {
         "id": 13,
         "skillName": "Figma",
-        "techIcon": "figma"
+        "techIcon": "figma",
+        "featured": true
     }
 ]
