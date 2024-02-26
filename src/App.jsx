@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import React from 'react';
 import Navigation from './components/Navigation';
 import Home from './pages/Home';
-import BioCard from './components/BioCard'
+import Bio from './components/Bio'
 import Footer from './components/Footer'
 import ContactForm from './pages/ContactForm';
 import Projects from './pages/Projects';
@@ -15,12 +15,12 @@ function App() {
       <Router>
         <div className='overflow-y-auto flex flex-col h-screen justify-between p-20'>
           <div>
-          <BioCard />
+          <Bio />
           <Navigation />
           </div>
           <Footer />
         </div>
-        <div className='overflow-y-auto'>
+        <div className='overflow-y-auto pt-20 pe-20'>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='contactForm' element={<ContactForm />} />
@@ -34,5 +34,3 @@ function App() {
 }
 
 export default App;
-
-// px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0

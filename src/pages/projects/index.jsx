@@ -1,5 +1,5 @@
 import projectData from "../../data/projects.json"
-import ProjectCard from "../../components/ProjectCard"
+import ProjectCard from "../../components/Project"
 
 const Projects = () => {
   

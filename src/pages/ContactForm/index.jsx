@@ -1,13 +1,12 @@
-import { Box, Button, Input, Textarea } from '@mui/joy';
-
+import { Button, Input, Textarea } from '@mui/joy';
 const Contacts = () => {
   return (
     <>
-      <h3>Let's chat!</h3>
-      <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
+      <h3 className='text-3xl'>Let's chat!</h3>
+      <div className='flex flex-col gap-2'>
         <Textarea
           color="primary"
-          minRows={4}
+          minRows={1}
           size="md"
           variant="outlined"
         />
@@ -19,7 +18,7 @@ const Contacts = () => {
           }
           sx={{ '--Input-radius': '25px', '--Input-decoratorChildHeight': '50px' }}
         />
-      </Box>
+      </div>
     </>
   );
 }
