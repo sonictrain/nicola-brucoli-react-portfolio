@@ -1,11 +1,12 @@
 import projectData from "../../data/projects.json"
 import ProjectCard from "../../components/Project"
+import Signature from '../../components/Signature'
 
 const Projects = () => {
-  
+
   return (
-      <>
-        <h3>Projects Page</h3>
+    <div className='w-full h-full flex flex-col justify-between font-sans'>
+      <div>
         {projectData.map((p) => (
           <ProjectCard
             id={p.id}
@@ -18,8 +19,10 @@ const Projects = () => {
             techStack={p.techStack}
           />
         ))}
-      </>
-    );
-  }
-  
+      </div>
+      <Signature />
+    </div>
+  );
+}
+
 export default Projects;

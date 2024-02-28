@@ -7,11 +7,11 @@ import Footer from './components/Footer'
 import ContactForm from './pages/ContactForm';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
-import '@fontsource/inter';
+import "inter-ui/inter.css";
 
 function App() {
   return (
-    <div className='grid grid-cols-2 h-dvh bg-blue-900 text-slate-200'>
+    <div className='grid grid-cols-2 h-dvh bg-midnightBlue-200 text-stone-200'>
       <Router>
         <div className='overflow-y-auto flex flex-col h-screen justify-between p-20'>
           <div>

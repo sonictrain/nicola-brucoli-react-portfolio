@@ -14,7 +14,7 @@ const BioCard = () => {
                 <PersonPin />
                 <p>{city}</p>
             </div>
-            <p className="text-slate-400">{shortBio}</p>
+            <p className="text-stone-900">{shortBio}</p>
         </div>
     )
 }

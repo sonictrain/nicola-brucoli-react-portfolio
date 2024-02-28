@@ -5,43 +5,41 @@ import { GitHub } from '@mui/icons-material';
 const ProjectCard = ({ id, title, image, description, githubLink, isPublic, techStack }) => {
 
     return (
-        <Card
-            key={id}
-            sx={{ width: 320 }}
-            color="primary"
-            size="md"
-            variant="plain">
-            <div>
-                <div>
-                    <Typography level="title-lg">{title}</Typography>
-                    <IconButton
-                        aria-label="Github Link"
-                        variant="plain"
-                        color="neutral"
-                        disabled={!isPublic}
-                        size="sm"
-                        onClick={() => window.open(`${githubLink}`, '_blank')}
-                        sx={{ position: 'absolute', top: '0.875rem', right: '0.5rem' }}>
-                        <GitHub />
-                    </IconButton>
+        <>
+            <div key={id} className="w-full rounded overflow-hidden">
+
+                <img className="w-full"
+                    src={image}
+                    loading="lazy"
+                    alt={title}>
+                </img>
+                <div className="px-6 py-4">
+                    <div className="font-bold text-xl mb-2">{title}</div>
+                    <p className="text-base">
+                        {description}
+                    </p>
                 </div>
-                <AspectRatio
-                    minHeight="120px"
-                    maxHeight="200px">
-                    <img
-                        src={image}
-                        loading="lazy"
-                        alt={title}
-                    />
-                </AspectRatio>
-                <Typography level="body-xs">{description}</Typography>
-                <div>
+                <div className="px-6 pt-4 pb-2">
                     {techStack.map((t, i) => (
                         <Chip key={i} size="sm" variant="soft">{t}</Chip>
                     ))}
                 </div>
             </div>
-        </Card>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains"></img>
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                        <p class="text-gray-700 text-base">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        </p>
+                    </div>
+                    <div class="px-6 pt-4 pb-2">
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                    </div>
+            </div>
+        </>
     )
 }
 

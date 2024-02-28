@@ -1,8 +1,9 @@
 import { Button, Input, Textarea } from '@mui/joy';
+import Signature from '../../components/Signature';
+
 const Contacts = () => {
   return (
-    <>
-      <h3 className='text-3xl'>Let's chat!</h3>
+    <div className='flex flex-col justify-between h-full'>
       <div className='flex flex-col gap-2'>
         <Textarea
           color="primary"
@@ -19,7 +20,8 @@ const Contacts = () => {
           sx={{ '--Input-radius': '25px', '--Input-decoratorChildHeight': '50px' }}
         />
       </div>
-    </>
+      <Signature />
+    </div>
   );
 }
 
