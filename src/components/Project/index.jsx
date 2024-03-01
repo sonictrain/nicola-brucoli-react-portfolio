@@ -1,45 +1,35 @@
 import { React } from "react";
-import { Card, Typography, AspectRatio, Chip, IconButton } from '@mui/joy';
-import { GitHub } from '@mui/icons-material';
+import { IconButton } from '@mui/joy';
 
 const ProjectCard = ({ id, title, image, description, githubLink, isPublic, techStack }) => {
 
     return (
-        <>
-            <div key={id} className="w-full rounded overflow-hidden">
-
-                <img className="w-full"
-                    src={image}
-                    loading="lazy"
-                    alt={title}>
-                </img>
-                <div className="px-6 py-4">
-                    <div className="font-bold text-xl mb-2">{title}</div>
-                    <p className="text-base">
+        <div key={id}>
+            <div className="flex content-start gap-3">
+                <img className="object-contain w-1/4 h-max-content mb-auto" src={image} alt={image}></img>
+                <div className="">
+                    <div className="flex items-center">
+                        <h3 className="font-bold text-lg pe-2">{title}</h3>
+                        <IconButton
+                            disabled={!isPublic}
+                            size="sm"
+                            variant="text"
+                            onClick={() => window.open(githubLink, '_blank')}
+                            className="rounded bg-[#121625] focus:shadow-accent-900 hover:bg-accent-900 hover:shadow-accent-900/50">
+                            <i className="fa-solid fa-arrow-up-right-from-square text-sm text-accent-200 hover:text-accent-200" />
+                        </IconButton>
+                    </div>
+                    <p className="text-stone-700 font-light text-sm mt-1">
                         {description}
                     </p>
-                </div>
-                <div className="px-6 pt-4 pb-2">
-                    {techStack.map((t, i) => (
-                        <Chip key={i} size="sm" variant="soft">{t}</Chip>
-                    ))}
+                    <div className='mt-3'>
+                        {techStack.map((t, i) => (
+                            <span key={i} className="bg-accent-900 text-accent-200 inline-block rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">{t}</span>
+                        ))}
+                    </div>
                 </div>
             </div>
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains"></img>
-                    <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                        <p class="text-gray-700 text-base">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                        </p>
-                    </div>
-                    <div class="px-6 pt-4 pb-2">
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-                    </div>
-            </div>
-        </>
+        </div>
     )
 }
 

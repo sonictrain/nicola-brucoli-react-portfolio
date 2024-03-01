@@ -5,8 +5,7 @@ import Signature from '../../components/Signature'
 const Projects = () => {
 
   return (
-    <div className='w-full h-full flex flex-col justify-between font-sans'>
-      <div>
+    <div className='w-full h-full flex flex-col gap-12 font-sans'>
         {projectData.map((p) => (
           <ProjectCard
             id={p.id}
@@ -19,7 +18,6 @@ const Projects = () => {
             techStack={p.techStack}
           />
         ))}
-      </div>
       <Signature />
     </div>
   );
