@@ -14,6 +14,9 @@ module.exports = withMT({
           200: '#55E5CE',
           900: '#142934',
         },
+        warning: {
+          200: '#ff4242',
+        },
         midnightBlue: {
           200: '#121625'
         },
