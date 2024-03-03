@@ -1,3 +1,4 @@
+// Signature component to be rendered on all the pages
 const Signature = () => {
     return (
         <p className='text-md py-10 md:py-14 lg:py-20 text-stone-900'>Designed in 

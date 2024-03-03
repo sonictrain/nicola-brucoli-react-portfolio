@@ -5,6 +5,7 @@ import {
   Alert
 } from "@material-tailwind/react";
 
+// Icon svg from heroicons
 const Icon = () => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -22,8 +23,10 @@ const Contact = () => {
     message: "",
   });
 
+  // Set boolean for open/close status
   const [openAlert, setOpenAlert] = useState(false)
 
+  // State for the alertMessage
   const [alertMessage, setAlertMessage] = useState("");
   const [success, setSuccess] = useState(false);
 
@@ -42,7 +45,9 @@ const Contact = () => {
     event.preventDefault();
     const { name, email, message } = formData;
 
+    // check if one or more fields are empty
     if (name.trim() !== "" && email.trim() !== "" && message.trim() !== "") {
+      // If yes, console.log the form data and handle the alert message
       console.log("Form submitted:", formData);
       setFormData({
         name: "",
@@ -53,6 +58,7 @@ const Contact = () => {
       setSuccess(true);
       setOpenAlert(true);
     } else {
+      // if not render a warning alert message
       setAlertMessage("Please filled out all the fields.");
       setSuccess(false);
       setOpenAlert(true);
@@ -65,6 +71,7 @@ const Contact = () => {
         <form className="w-full flex flex-col gap-3" onSubmit={handleSubmit}>
           <h2 className="text-2xl mb-10">Let's chat!</h2>
           <div className="flex flex-col lg:flex-row gap-3">
+            {/* Name input */}
             <div className="relative h-10 w-full">
               <input type="text"
                 className="peer h-full w-full rounded-[7px] border border-white border-t-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal  !text-white outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-white focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
@@ -78,6 +85,7 @@ const Contact = () => {
                 Your Name
               </label>
             </div>
+            {/* Email input */}
             <div className="relative h-10 w-full">
               <input type="email"
                 className="peer h-full w-full rounded-[7px] border border-white border-t-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal  !text-white outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-white focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
@@ -93,6 +101,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="relative h-60 w-full min-w-[200px]">
+            {/* Text Area Input */}
             <textarea
               className="peer h-full w-full rounded-[7px] border border-white border-t-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal  !text-white outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-white focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
               placeholder=" "
@@ -105,7 +114,7 @@ const Contact = () => {
               Message
             </label>
           </div>
-
+          {/* Submit button component */}
           <Button
             variant="filled"
             className="bg-accent-900 text-accent-200 hover:border-accent-200"
@@ -113,10 +122,12 @@ const Contact = () => {
           >
             Submit
           </Button>
+          {/* Alert component */}
           <Alert
             icon={<Icon />}
             open={openAlert}
             onClose={() => setOpenAlert(false)}
+            // Change color of the Alert container based on the status of the form
             className={`rounded-none border-l-4 font-medium ${success ? 'border-accent-200 bg-accent-900 text-accent-200' : 'border-warning-200 bg-warning-200/10 text-warning-200'}`}>
             {alertMessage}
           </Alert>

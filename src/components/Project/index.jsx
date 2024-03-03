@@ -1,6 +1,7 @@
 import { React } from "react";
 import { IconButton } from '@mui/joy';
 
+// Project card - the required props are destructured
 const ProjectCard = ({ id, title, image, description, githubLink, isPublic, techStack }) => {
 
     return (
@@ -10,6 +11,7 @@ const ProjectCard = ({ id, title, image, description, githubLink, isPublic, tech
                 <div className="">
                     <div className="flex items-center">
                         <h3 className="font-bold text-lg pe-2">{title}</h3>
+                        {/* IconButton from Joy library - To be replaced with the Material Tailwind component */}
                         <IconButton
                             disabled={!isPublic}
                             size="sm"

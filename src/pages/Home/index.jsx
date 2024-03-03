@@ -1,9 +1,11 @@
 import Signature from '../../components/Signature'
 
+// Home component to be rendered when landing on the following path => /
 const Home = () => {
   return (
     <div className='flex flex-col justify-between h-full'>
       <div>
+      {/* Personal Bio */}
       <p className="mb-5">Back in 2018, I decided to challenge myself and try my hand at developing functional prototypes of my interfaces and finished into the rabbit hole of coding and web development.
       Fast-forward to today, I've had the privilege of building software interfaces for startups, a university research projects, and tech companies from the aviation industry.</p>
 

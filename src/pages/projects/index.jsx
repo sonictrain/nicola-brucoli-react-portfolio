@@ -3,9 +3,9 @@ import ProjectCard from "../../components/Project"
 import Signature from '../../components/Signature'
 
 const Projects = () => {
-
   return (
     <div className='w-full h-full flex flex-col gap-12 font-sans'>
+        {/* Projects information are retrieved via json */}
         {projectData.map((p) => (
           <ProjectCard
             id={p.id}

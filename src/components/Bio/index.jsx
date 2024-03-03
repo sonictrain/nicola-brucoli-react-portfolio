@@ -5,7 +5,7 @@ import { PersonPin } from '@mui/icons-material';
 const BioCard = () => {
 
     const { name, surname, currentRole, currentCompany, city, shortBio } = bioData
-
+    // Pulling personal data from JSON 
     return (
         <div className='flex flex-col gap-1'>
             <h1 className="text-6xl font-bold tracking-tight">{name} {surname}</h1>
