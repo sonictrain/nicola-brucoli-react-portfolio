@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Saas login Screen",
-        "image": "./images/SaaS-login.jpg.jpg",
+        "image": "./images/SaaS-login.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
         "isPublic": false,
