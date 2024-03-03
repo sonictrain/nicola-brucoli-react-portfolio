@@ -1,6 +1,17 @@
-import Signature from '../../components/Signature';
-import { Button } from "@material-tailwind/react";
 import React, { useState } from 'react';
+import Signature from '../../components/Signature';
+import {
+  Button,
+  Alert
+} from "@material-tailwind/react";
+
+const Icon = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
+    </svg>
+  )
+}
 
 const ContactForm = () => {
 
@@ -11,6 +22,11 @@ const ContactForm = () => {
     message: "",
   });
 
+  const [openAlert, setOpenAlert] = useState(false)
+
+  const [alertMessage, setAlertMessage] = useState("");
+  const [success, setSuccess] = useState(false);
+
   // Function to handle input change
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -18,17 +34,29 @@ const ContactForm = () => {
       ...formData,
       [name]: value,
     });
+    setOpenAlert(false)
   };
 
   // Function to handle form submit
   const handleSubmit = (event) => {
     event.preventDefault();
     const { name, email, message } = formData;
-    setFormData({
-      name: "",
-      email: "",
-      message: "",
-    });
+
+    if (name.trim() !== "" && email.trim() !== "" && message.trim() !== "") {
+      console.log("Form submitted:", formData);
+      setFormData({
+        name: "",
+        email: "",
+        message: "",
+      });
+      setAlertMessage(`Thanks, ${formData.name}! Your message has been received. I'll come back to you at the following email: ${formData.email}`);
+      setSuccess(true);
+      setOpenAlert(true);
+    } else {
+      setAlertMessage("Please filled out all the fields.");
+      setSuccess(false);
+      setOpenAlert(true);
+    }
   };
 
   return (
@@ -84,7 +112,14 @@ const ContactForm = () => {
             type="submit"
           >
             Submit
-          </Button>
+            </Button>
+          <Alert
+            icon={<Icon />}
+            open={openAlert}
+            onClose={() => setOpenAlert(false)}
+            className={`rounded-none border-l-4 font-medium ${success ? 'border-accent-200 bg-accent-900 text-accent-200' : 'border-warning-200 bg-warning-200/10 text-warning-200'}`}>
+            {alertMessage}
+          </Alert>
         </form>
       </div>
       <div>
