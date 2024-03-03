@@ -13,7 +13,7 @@ const Icon = () => {
   )
 }
 
-const ContactForm = () => {
+const Contact = () => {
 
   // Set form data value
   const [formData, setFormData] = useState({
@@ -129,4 +129,4 @@ const ContactForm = () => {
   );
 }
 
-export default ContactForm;
+export default Contact;
