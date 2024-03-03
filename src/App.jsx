@@ -22,7 +22,7 @@ function App() {
             <Footer />
           </div>
         </div>
-        <div className='px-10 pt-10 md:px-14 md:pt-14 lg:p-20'>
+        <div className='px-10 pt-10 md:px-14 md:pt-14 lg:px-20 lg:pt-20 md:h-screen md:overflow-y-scroll'>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='contact' element={<Contact />} />
@@ -30,7 +30,7 @@ function App() {
             <Route path='skills' element={<Skills />} />
           </Routes>
         </div>
-        <div className='px-10 pb-10 mt-auto md:px-14 md:pb-14 lg:px-20 lg:pb-20 md:hidden'>
+        <div className='p-10 mt-auto md:p-14 lg:p-20 md:hidden'>
             <Footer />
         </div>
       </Router>
