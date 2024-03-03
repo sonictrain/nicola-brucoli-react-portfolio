@@ -8,8 +8,7 @@ const Home = () => {
       Fast-forward to today, I've had the privilege of building software interfaces for startups, a university research projects, and tech companies from the aviation industry.</p>
 
       <p className="mb-5">My main focus these days is building products and leading the software development for our clients at Weave Intelligence.
-      I most enjoy working with new technology building software which is done right - exactly in the sweet spot where design and engineering meet - you know, things that look good but are also done properly under the hood.
-      In my free time, I love</p>
+      I most enjoy working with new technology building software which is done right - exactly in the sweet spot where design and engineering meet - you know, things that look good but are also done properly under the hood.</p>
 
       <p>When I'm not out there saving the digital world, you'll find me leveling up my skills because, hey, why not? You ask me something new? No problem at all, can do!</p>
       </div>
