@@ -44,7 +44,7 @@ function Navigation() {
       </div>
       <div className="hover:text-accent-200 hover:before:content-['>']">
         <NavLink
-          to="contactForm"
+          to="contact"
           className={
             ({ isActive }) =>
               isActive
