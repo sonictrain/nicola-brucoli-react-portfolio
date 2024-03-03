@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Saas login Screen",
-        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "image": "./images/SaaS-login.jpg.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
         "isPublic": false,
@@ -19,7 +19,7 @@
     {
         "id": 2,
         "title": "Scorecounter App",
-        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "image": "./images/match-scoreboard.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
         "isPublic": true,
@@ -31,7 +31,7 @@
     {
         "id": 3,
         "title": "Digital Bio Card",
-        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "image": "./images/business-card.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
         "isPublic": true,
@@ -43,7 +43,7 @@
     {
         "id": 4,
         "title": "React Travel Journal",
-        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "image": "./images/travel-journal.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
         "isPublic": true,
@@ -56,7 +56,7 @@
     {
         "id": 5,
         "title": "HoriSEOn",
-        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "image": "./images/horiSEOn.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
         "isPublic": true,
@@ -68,7 +68,7 @@
     {
         "id": 6,
         "title": "Designer Portfolio",
-        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "image": "./images/designer-portfolio.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
         "isPublic": true,
@@ -82,7 +82,7 @@
     {
         "id": 7,
         "title": "Coll-hub",
-        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "image": "./images/coll-hub.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
         "isPublic": true,
@@ -97,7 +97,7 @@
     {
         "id": 8,
         "title": "Better Readme",
-        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "image": "./images/better-readme.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
         "isPublic": true,
@@ -110,7 +110,7 @@
     {
         "id": 9,
         "title": "Dinner and a Movie",
-        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "image": "./images/dinner-and-a-movie.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
         "isPublic": true,
@@ -126,7 +126,7 @@
     {
         "id": 10,
         "title": "OpenWeatherPal",
-        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "image": "./images/open-weather-pal.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
         "isPublic": true,
@@ -141,7 +141,7 @@
     {
         "id": 11,
         "title": "Workday Scheduler Online",
-        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "image": "./images/work-day-scheduler-online.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
         "isPublic": true,
@@ -154,7 +154,7 @@
     {
         "id": 12,
         "title": "Password Generator",
-        "image": "https://raw.githubusercontent.com/sonictrain/Bootstrap-Portfolio/main/assets/images/png/login-screen.png",
+        "image": "./images/password-generator.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
         "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
         "isPublic": true,
