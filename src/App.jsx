@@ -15,12 +15,12 @@ function App() {
       <Router>
         <div className='overflow-y-auto flex flex-col h-screen justify-between p-20'>
           <div>
-          <Bio />
-          <Navigation />
+            <Bio />
+            <Navigation />
           </div>
-          <Footer />
+            <Footer />
         </div>
-        <div className='overflow-y-auto pt-20 pe-20'>
+        <div className='overflow-y-auto px-20 pt-20'>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='contactForm' element={<ContactForm />} />
