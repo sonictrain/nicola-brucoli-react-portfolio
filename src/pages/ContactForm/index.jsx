@@ -1,8 +1,37 @@
 import Signature from '../../components/Signature';
 import { Button } from "@material-tailwind/react";
+import React, { useState } from 'react';
 
 
 const ContactForm = () => {
+
+  // Set form data value
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  // Function to handle input change
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  // Function to handle form submit
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const { name, email, message } = formData;
+    setFormData({
+      name: "",
+      email: "",
+      message: "",
+    });
+  };
+
   return (
     <div className='flex flex-col justify-between h-full'>
       <div>
