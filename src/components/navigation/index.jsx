@@ -1,3 +1,4 @@
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 // Navigation component. Styles apply for hover and active status.
@@ -21,7 +22,7 @@ function Navigation() {
       {/* SKILLS */}
       <div className="hover:text-accent-200 hover:before:content-['>']">
         <NavLink
-          to="skills"
+          to="/skills"
           className={
             ({ isActive }) =>
               isActive
@@ -35,7 +36,7 @@ function Navigation() {
       {/* PROJECTS */}
       <div className="hover:text-accent-200 hover:before:content-['>']">
         <NavLink
-          to="projects"
+          to="/projects"
           className={
             ({ isActive }) =>
               isActive
@@ -49,7 +50,7 @@ function Navigation() {
       {/* CONTACTS */}
       <div className="hover:text-accent-200 hover:before:content-['>']">
         <NavLink
-          to="contact"
+          to="/contact"
           className={
             ({ isActive }) =>
               isActive
