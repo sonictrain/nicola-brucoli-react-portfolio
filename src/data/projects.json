@@ -1,10 +1,10 @@
 [
     {
-        "id": 1,
-        "title": "Saas login Screen",
+        "id": 0,
+        "title": "SaaS login Screen",
         "image": "./images/SaaS-login.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
-        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "description": "Login screen created for a client using HTML, TailwindCSS & React. Implemented Sign Up & Sign In forms with Firebase API for real-time database interaction. Repository is private and not accessible.",
+        "githubLink": "https://github.com/sonictrain/",
         "isPublic": false,
         "techStack": [
             "HTML",
@@ -13,27 +13,47 @@
             "Tailwind",
             "React",
             "Firebase",
-            "RestAPI"
+            "RestAPI",
+            "Vercel",
+            "PWA"
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Frontend Developer Portfolio (React/Tailwind)",
+        "image": "./images/react-portfolio.jpg",
+        "description": "GitHub project hosting code for my professional portfolio. Built using React and Tailwind CSS to minimize CSS and media queries. Showcases projects, skills, and experiences through clean, semantic code.",
+        "githubLink": "https://github.com/sonictrain/react-journal",
+        "isPublic": true,
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "NodeJS",
+            "React",
+            "Netlify",
+            "JSON"
         ]
     },
     {
         "id": 2,
-        "title": "Scorecounter App",
-        "image": "./images/match-scoreboard.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
-        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "title": "Frontend Developer Portfolio (HTML/Bootstrap)",
+        "image": "./images/bootstrap-portfolio.jpg",
+        "description": "GitHub project hosting code for my professional portfolio. Built using Bootstrap 5.3 to minimize CSS and media queries. Showcases projects, skills, and experiences through clean, semantic code.",
+        "githubLink": "https://github.com/sonictrain/Bootstrap-Porfolio/",
         "isPublic": true,
         "techStack": [
             "HTML",
-            "CSS"
+            "CSS",
+            "Bootstrap"
         ]
     },
     {
         "id": 3,
-        "title": "Digital Bio Card",
-        "image": "./images/business-card.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
-        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "title": "Frontend Developer Portfolio (Vanilla HTML/CSS)",
+        "image": "./images/html-portfolio.jpg",
+        "description": "GitHub project hosting the code for my professional portfolio. Built exclusively with HTML and CSS, showcasing skills, projects, and experiences through clean and semantic code.",
+        "githubLink": "https://github.com/sonictrain/nicola-brucoli-portfolio/",
         "isPublic": true,
         "techStack": [
             "HTML",
@@ -42,64 +62,46 @@
     },
     {
         "id": 4,
-        "title": "React Travel Journal",
-        "image": "./images/travel-journal.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
-        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "title": "Designer Portfolio",
+        "image": "./images/designer-portfolio.jpg",
+        "description": "Personal portfolio built with Hugo framework based on JAMstack. Showcasing information through skills, experiences, and a projects gallery as a designer. Includes a contact form linked to an SMTP provider for email confirmations.",
+        "githubLink": "https://github.com/sonictrain/nicola.im",
         "isPublic": true,
         "techStack": [
             "HTML",
             "CSS",
-            "React"
+            "NodeJS",
+            "Hugo",
+            "Markdown",
+            "Netlify",
+            "SMTP API"
         ]
     },
     {
         "id": 5,
-        "title": "HoriSEOn",
-        "image": "./images/horiSEOn.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
-        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "title": "OpenWeatherPal",
+        "image": "./images/open-weather-pal.jpg",
+        "description": "OpenWeatherPal is a web application designed to provide users with current weather information and forecasts for the next 5 days. Leveraging JavaScript (JS), jQuery, Bootstrap for styling, and the OpenWeatherMap API for weather data, the application allows users to search for weather conditions by location name or specify the country using the format [CityName, CountryCode]. Additionally, if there are multiple results for a location search, the app proposes alternative options. The search history and the latest search results are saved in the local storage of the user's browser for quick reference.",
+        "githubLink": "https://github.com/sonictrain/OpenWeatherPal/",
         "isPublic": true,
         "techStack": [
             "HTML",
-            "CSS"
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "JQuery",
+            "DOM",
+            "LocalStorage",
+            "RestAPI",
+            "Mapbox"
         ]
     },
     {
         "id": 6,
-        "title": "Designer Portfolio",
-        "image": "./images/designer-portfolio.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
-        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
-        "isPublic": true,
-        "techStack": [
-            "HTML",
-            "CSS",
-            "Markdown",
-            "Hugo"
-        ]
-    },
-    {
-        "id": 7,
-        "title": "Coll-hub",
-        "image": "./images/coll-hub.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
-        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
-        "isPublic": true,
-        "techStack": [
-            "JavaScript",
-            "NodeJS",
-            "HTML",
-            "CSS",
-            "Bootstrap"
-        ]
-    },
-    {
-        "id": 8,
         "title": "Better Readme",
         "image": "./images/better-readme.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
-        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "description": "Better Readme Generator is a command-line tool built with JavaScript and Node.js. Uses the Inquirer package to streamline creating well-structured README files for GitHub repositories. Simplifies README creation by prompting users with questions for essential information.",
+        "githubLink": "https://github.com/sonictrain/better-readme",
         "isPublic": true,
         "techStack": [
             "JavaScript",
@@ -108,11 +110,45 @@
         ]
     },
     {
+        "id": 7,
+        "title": "React Travel Journal",
+        "image": "./images/travel-journal.jpg",
+        "description": "Travel Journal developed with React. Data sourced from a JSON file containing information like location, title, and description for entries.",
+        "githubLink": "https://github.com/sonictrain/react-journal",
+        "isPublic": true,
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "NodeJS",
+            "React",
+            "Netlify",
+            "JSON"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Digital Bio Card",
+        "image": "./images/business-card.jpg",
+        "description": "Digital Business Card created with React and custom CSS. Personal information dynamically populated from a JSON file for easy updates.",
+        "githubLink": "https://github.com/sonictrain/react-bio-card",
+        "isPublic": true,
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "NodeJS",
+            "React",
+            "Netlify",
+            "JSON"
+        ]
+    },
+    {
         "id": 9,
         "title": "Dinner and a Movie",
         "image": "./images/dinner-and-a-movie.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
-        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "description": "Responsive webpage suggesting movies and food recipes based on user input. Built with HTML, CSS, Bootstrap, JavaScript, jQuery, RestAPI, and DOM.",
+        "githubLink": "https://github.com/sonictrain/dinner-and-a-movie",
         "isPublic": true,
         "techStack": [
             "HTML",
@@ -120,48 +156,93 @@
             "Bootstrap",
             "JavaScript",
             "JQuery",
-            "RestAPI"
+            "RestAPI",
+            "DOM"
         ]
     },
     {
         "id": 10,
-        "title": "OpenWeatherPal",
-        "image": "./images/open-weather-pal.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
-        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "title": "Scorecounter App",
+        "image": "./images/match-scoreboard.jpg",
+        "description": "Score counter app built with HTML & CSS for DOM manipulation practice. JavaScript and Web API used for dynamic updates. Responsive app tracks sets and match scores.",
+        "githubLink": "https://github.com/sonictrain/scoreboard",
+        "isPublic": true,
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Netlify",
+            "DOM"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Coll-hub",
+        "image": "./images/coll-hub.jpg",
+        "description": "Coll-hub is a dynamic team board powered by NodeJS & Bootstrap. Streamlining team management with interactive member cards seamlessly with Coll-hub.",
+        "githubLink": "https://github.com/sonictrain/Coll-hub",
         "isPublic": true,
         "techStack": [
             "HTML",
             "CSS",
             "Bootstrap",
-            "JQuery",
-            "RestAPI"
-        ]
-    },
-    {
-        "id": 11,
-        "title": "Workday Scheduler Online",
-        "image": "./images/work-day-scheduler-online.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
-        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
-        "isPublic": true,
-        "techStack": [
-            "HTML",
-            "CSS",
-            "JQuery"
+            "JavaScript",
+            "NodeJS"
         ]
     },
     {
         "id": 12,
         "title": "Password Generator",
         "image": "./images/password-generator.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi dolorem, explicabo iste veniam quae voluptatum optio delectus esse voluptas nostrum libero distinctio doloribus at quis est dicta, id similique?",
-        "githubLink": "https://github.com/sonictrain/Bootstrap-Portfolio",
+        "description": "Password generator web application seamlessly creating secure passwords with lower and uppercased characters, numbers, and symbols, up to 128 characters.",
+        "githubLink": "https://github.com/sonictrain/password-generator/",
         "isPublic": true,
         "techStack": [
             "HTML",
             "CSS",
             "JavaScript"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Workday Scheduler Online",
+        "image": "./images/work-day-scheduler-online.jpg",
+        "description": "Interactive Work Day Scheduler, a web-based application designed to assist users in managing their daily schedules efficiently. The application allows users to add, remove, save, and delete events within 1-hour time slots. The use of JavaScript (JS) and jQuery enhances the interactivity and responsiveness of the scheduler.",
+        "githubLink": "https://github.com/sonictrain/workday-scheduler-online/",
+        "isPublic": true,
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JQuery",
+            "DOM",
+            "LocalStorage"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Central Perk Pub Quiz",
+        "image": "./images/central-perk-pub-quiz.jpg",
+        "description": "Engaging pub quiz about Friends crafted with JavaScript. Features 10 questions, time-based scoring, leaderboard, and retry option. Scores stored in local storage for user reference.",
+        "githubLink": "https://github.com/sonictrain/central-perk-pub-quiz/",
+        "isPublic": true,
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JQuery",
+            "DOM",
+            "LocalStorage"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "HoriSEOn",
+        "image": "./images/horiSEOn.jpg",
+        "description": "Project to enhance the HTML codebase of the Horiseon website for maximum SEO effectiveness. SEO and accessibility improvements for a dynamic web landscape.",
+        "githubLink": "https://github.com/sonictrain/horiSEOn-refactoring/",
+        "isPublic": true,
+        "techStack": [
+            "HTML",
+            "CSS"
         ]
     }
 ]
