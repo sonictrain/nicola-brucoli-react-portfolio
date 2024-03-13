@@ -7,7 +7,6 @@ import Footer from './components/Footer'
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
-import ActivityChart from './components/ActivityChart';
 import "inter-ui/inter.css";
 
 // App component
@@ -22,7 +21,6 @@ const App = () => {
             <Bio />
             <Navigation />
           </div>
-          <ActivityChart />
           <div className='hidden md:block'>
             {/* Footer for big screen only */}
             <Footer />

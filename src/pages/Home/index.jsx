@@ -1,4 +1,5 @@
 import Signature from '../../components/Signature'
+import ActivityChart from '../../components/ActivityChart';
 
 // Home component to be rendered when landing on the following path => /
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
 
       <p>When I'm not out there saving the digital world, you'll find me leveling up my skills because, hey, why not? You ask me something new? No problem at all, can do!</p>
       </div>
+      <ActivityChart />
       <Signature/>
     </div>
   );
