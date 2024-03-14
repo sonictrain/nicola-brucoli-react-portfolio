@@ -5,12 +5,6 @@ import axios from 'axios';
 const chartConfig = {
     type: "line",
     height: 240,
-    series: [
-        {
-            name: "hours",
-            data: [50, 40, 300, 320, 500, 350, 200, 230, 500],
-        },
-    ],
     options: {
         chart: {
             toolbar: {
@@ -47,17 +41,7 @@ const chartConfig = {
                     fontWeight: 400,
                 },
             },
-            categories: [
-                "Mon",
-                "Tue",
-                "Wed",
-                "Jul",
-                "Aug",
-                "Sep",
-                "Oct",
-                "Nov",
-                "Dec",
-            ],
+            categories: [],
         },
         yaxis: {
             labels: {
@@ -95,7 +79,13 @@ const chartConfig = {
 
 const ActivityChart = () => {
 
-    const [activityData, setActivityData] = useState({});
+    const [activityData, setActivityData] = useState({
+        data: {
+            name: "",
+            data: [],
+        },
+        categories: []
+    });
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -109,22 +99,34 @@ const ActivityChart = () => {
                     'Content-Type': 'application/json',
                 },
             }
-            try
-            {
+            try {
                 const response = await axios.request(axiosConfig);
-                console.log(response.data);
-            }
-            catch (error) {
+                setActivityData({
+                    data: [
+                        {
+                            name: "hours",
+                            data: response.data.data.map(day => day.grand_total.total_seconds)
+                        }
+                    ],
+                    categories: response.data.data.map(date => date.range.date)
+                })
+            } catch (error) {
                 console.error(error);
             }
         }
-
         fetchData();
-
     }, []);
 
+    useEffect(() => {
+
+    }, [activityData]);
+
+
     return (
-        <Chart {...chartConfig} />
+        <Chart
+        {...chartConfig} 
+        series = { activityData.data }
+        />
     );
 }
 
