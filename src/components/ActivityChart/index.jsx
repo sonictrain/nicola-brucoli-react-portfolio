@@ -83,10 +83,12 @@ const chartConfig = {
 const ActivityChart = () => {
 
     const [activityData, setActivityData] = useState({
-        data: {
-            name: "",
-            data: [],
-        },
+        series: [
+            {
+                name: "",
+                data: [],
+            },
+        ],
         categories: []
     });
     const [loading, setLoading] = useState(true);
@@ -105,10 +107,10 @@ const ActivityChart = () => {
             try {
                 const response = await axios.request(axiosConfig);
                 setActivityData({
-                    data: [
+                    series: [
                         {
                             name: "hours",
-                            data: response.data.data.map(day => (day.grand_total.total_seconds/3600).toFixed(2))
+                            data: response.data.data.map(day => (day.grand_total.total_seconds / 3600).toFixed(2))
                         }
                     ],
                     categories: response.data.data.map(date => date.range.date)
@@ -120,12 +122,16 @@ const ActivityChart = () => {
         fetchData();
     }, []);
 
+    useEffect(() => {
+        console.log(activityData.series)
+    }, [activityData])
+
     return (
         <div className='mt-10'>
             <Chart
-            {...chartConfig} 
-            series = { activityData.data }
-            height = { 180 }
+                {...chartConfig}
+                series={activityData.series}
+                height={180}
             options = {{
                 ...chartConfig.options,
                 xaxis: {
