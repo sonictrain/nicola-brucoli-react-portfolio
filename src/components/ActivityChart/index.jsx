@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Chart from "react-apexcharts";
 import axios from 'axios';
+import {
+    Spinner,
+    Alert,
+    Button
+} from "@material-tailwind/react";
 
 const chartConfig = {
     type: "line",
@@ -91,11 +96,17 @@ const ActivityChart = () => {
         ],
         categories: []
     });
-    const [loading, setLoading] = useState(true);
+    const [loader, setLoader] = useState(false);
+    const [error, setError] = useState("");
+    const [openAlert, setOpenAlert] = useState(false);
 
     useEffect(() => {
 
         const fetchData = async () => {
+
+            setError("")
+            setOpenAlert(false)
+            setLoader(true)
 
             const axiosConfig = {
                 method: 'GET',
@@ -115,32 +126,66 @@ const ActivityChart = () => {
                     ],
                     categories: response.data.data.map(date => date.range.date)
                 })
-            } catch (error) {
-                console.error(error);
+                setLoader(false)
+            } catch (err) {
+                setError(err.message)
+                setLoader(false)
+                setOpenAlert(true)
             }
         }
         fetchData();
     }, []);
 
-    useEffect(() => {
-        console.log(activityData.series)
-    }, [activityData])
-
     return (
-        <div className='mt-10'>
-            <Chart
-                {...chartConfig}
-                series={activityData.series}
-                height={180}
-            options = {{
-                ...chartConfig.options,
-                xaxis: {
-                    ...chartConfig.options.xaxis,
-                    categories: activityData.categories
-                }
-            }}
-            />
+        // Main container
+        <div className='flex justify-center items-center h-48'>
+
+            { loader?
+                (
+                    <Spinner color="teal" className="h-12 w-12" />
+                )
+                
+                :
+                
+                (
+                    openAlert ? (
+
+                        <div className=' border-l-4 border-[#ff4242] bg-[#ff4242]/10 w-full flex flex-row justify-between'>
+                            <Alert
+                                className="font-medium rounded-none bg-transparent text-[#ff4242]">
+                                    {error}
+                            </Alert>
+                            <Button
+                                variant="text"
+                                onClick={() => fetchData()}
+                                className='mx-auto text-[#ff4242]'>
+                                RETRY
+                            </Button>
+                        </div>
+        
+                    ) : (
+        
+                        <div className='mt-10 w-full'>
+                            <Chart
+                                {...chartConfig}
+                                series={activityData.series}
+                                height={180}
+                                options={{
+                                    ...chartConfig.options,
+                                    xaxis: {
+                                        ...chartConfig.options.xaxis,
+                                        categories: activityData.categories
+                                    }
+                                }}
+                            />
+                        </div>
+                    )
+
+                )
+            }
+
         </div>
+
     );
 }
 
