@@ -6,6 +6,7 @@ import {
     Alert,
     Button
 } from "@material-tailwind/react";
+import dayjs from 'dayjs'
 
 const chartConfig = {
     type: "line",
@@ -21,7 +22,7 @@ const chartConfig = {
         dataLabels: {
             enabled: false,
         },
-        colors: ["#FFFFFF"],
+        colors: ["#DEE4ED"],
         stroke: {
             lineCap: "round",
             curve: "smooth",
@@ -50,7 +51,7 @@ const chartConfig = {
         },
         yaxis: {
             labels: {
-                show: true,
+                show: false,
                 style: {
                     colors: "#616161",
                     fontSize: "12px",
@@ -100,6 +101,8 @@ const ActivityChart = () => {
     const [error, setError] = useState("");
     const [openAlert, setOpenAlert] = useState(false);
 
+    const valueLimit = 14;
+
     useEffect(() => {
 
         const fetchData = async () => {
@@ -121,10 +124,10 @@ const ActivityChart = () => {
                     series: [
                         {
                             name: "hours",
-                            data: response.data.data.map(day => (day.grand_total.total_seconds / 3600).toFixed(2))
+                            data: response.data.data.map(day => (day.grand_total.total_seconds / 3600).toFixed(2)).slice(-valueLimit)
                         }
                     ],
-                    categories: response.data.data.map(date => date.range.date)
+                    categories: response.data.data.map(date => dayjs(date.range.date).format('MMM D')).slice(-valueLimit)
                 })
                 setLoader(false)
             } catch (err) {
