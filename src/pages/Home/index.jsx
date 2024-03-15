@@ -4,7 +4,7 @@ import ActivityChart from '../../components/ActivityChart';
 // Home component to be rendered when landing on the following path => /
 const Home = () => {
   return (
-    <div className='flex flex-col justify-between h-full'>
+    <div className='flex flex-col h-full'>
       <div>
       {/* Personal Bio */}
       <p className="mb-5">Back in 2018, I decided to challenge myself and try my hand at developing functional prototypes of my interfaces and finished into the rabbit hole of coding and web development.
@@ -16,7 +16,7 @@ const Home = () => {
       <p>When I'm not out there saving the digital world, you'll find me leveling up my skills because, hey, why not? You ask me something new? No problem at all, can do!</p>
       </div>
       <ActivityChart />
-      <Signature/>
+      <Signature />
     </div>
   );
 }
