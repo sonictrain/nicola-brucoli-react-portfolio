@@ -4,7 +4,6 @@ import axios from 'axios';
 
 const chartConfig = {
     type: "line",
-    height: 240,
     options: {
         chart: {
             toolbar: {
@@ -21,6 +20,7 @@ const chartConfig = {
         stroke: {
             lineCap: "round",
             curve: "smooth",
+            width: 3,
         },
         markers: {
             size: 0,
@@ -33,7 +33,7 @@ const chartConfig = {
                 show: false,
             },
             labels: {
-                show: false,
+                show: true,
                 style: {
                     colors: "#616161",
                     fontSize: "12px",
@@ -45,7 +45,7 @@ const chartConfig = {
         },
         yaxis: {
             labels: {
-                show: false,
+                show: true,
                 style: {
                     colors: "#616161",
                     fontSize: "12px",
@@ -73,6 +73,9 @@ const chartConfig = {
         },
         tooltip: {
             theme: "dark",
+        },
+        zoom: {
+            enabled: false,
         },
     },
 };
@@ -105,7 +108,7 @@ const ActivityChart = () => {
                     data: [
                         {
                             name: "hours",
-                            data: response.data.data.map(day => day.grand_total.total_seconds)
+                            data: response.data.data.map(day => (day.grand_total.total_seconds/3600).toFixed(2))
                         }
                     ],
                     categories: response.data.data.map(date => date.range.date)
@@ -117,16 +120,21 @@ const ActivityChart = () => {
         fetchData();
     }, []);
 
-    useEffect(() => {
-
-    }, [activityData]);
-
-
     return (
-        <Chart
-        {...chartConfig} 
-        series = { activityData.data }
-        />
+        <div className='mt-10'>
+            <Chart
+            {...chartConfig} 
+            series = { activityData.data }
+            height = { 180 }
+            options = {{
+                ...chartConfig.options,
+                xaxis: {
+                    ...chartConfig.options.xaxis,
+                    categories: activityData.categories
+                }
+            }}
+            />
+        </div>
     );
 }
 
