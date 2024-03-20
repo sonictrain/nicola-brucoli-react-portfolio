@@ -6,7 +6,8 @@ import {
     Alert,
     Button
 } from "@material-tailwind/react";
-import dayjs from 'dayjs'
+import dayjs from 'dayjs';
+import './style.css';
 
 const chartConfig = {
     type: "line",
@@ -78,10 +79,19 @@ const chartConfig = {
             opacity: 1,
         },
         tooltip: {
-            theme: "dark",
-        },
-        zoom: {
-            enabled: false,
+            enabled: true,
+            // theme: "dark",
+            x: {
+                show: true,
+                formatter: (val) => {
+                    return "Day: " + val;
+                }
+            },
+            y: {
+                formatter: (val) => {
+                    return val + " hours";
+                }
+            }
         },
     },
 };
@@ -143,20 +153,20 @@ const ActivityChart = () => {
         // Main container
         <div className='flex justify-center items-center h-48'>
 
-            { loader?
+            {loader ?
                 (
                     <Spinner color="teal" className="h-12 w-12" />
                 )
-                
+
                 :
-                
+
                 (
                     openAlert ? (
 
                         <div className=' border-l-4 border-[#ff4242] bg-[#ff4242]/10 w-full flex flex-row justify-between'>
                             <Alert
                                 className="font-medium rounded-none bg-transparent text-[#ff4242]">
-                                    {error}
+                                {error}
                             </Alert>
                             <Button
                                 variant="text"
@@ -165,9 +175,9 @@ const ActivityChart = () => {
                                 RETRY
                             </Button>
                         </div>
-        
+
                     ) : (
-        
+
                         <div className='mt-10 w-full'>
                             <Chart
                                 {...chartConfig}
