@@ -66,7 +66,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='flex flex-col justify-between h-full'>
+    <div className='flex flex-col justify-between min-h-full'>
       <div>
         <form className="w-full flex flex-col gap-3" onSubmit={handleSubmit}>
           <h2 className="text-2xl mb-10">Let's chat!</h2>

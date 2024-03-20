@@ -4,7 +4,7 @@ import Signature from '../../components/Signature'
 
 const Skills = () => {
   return (
-    <div className='flex flex-col justify-between h-full'>
+    <div className='flex flex-col justify-between min-h-full'>
       {/* Grid container */}
       <div className='grid gap-2 grid-cols-3 auto-rows-min grid-flow-dense'>
         {/* Skill data are retrieved via json */}
