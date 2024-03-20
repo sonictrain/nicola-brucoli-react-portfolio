@@ -7,16 +7,18 @@ import Footer from './components/Footer'
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
+import ThemeSwitch from './components/ThemeSwitch';
 import "inter-ui/inter.css";
 
 // App component
 const App = () => {
   return (
     // responsive grid
-    <div className='grid grid-cols-1 md:grid-cols-2 bg-midnightBlue-200 text-stone-200'>
+    <div className='bg-midnightBlue-200 text-stone-200 flex flex-col md:flex-row'>
+      <ThemeSwitch />
       {/* Router setup */}
       <Router>
-        <div className='overflow-y-auto flex flex-col md:h-screen justify-between p-10 md:p-14 lg:p-20'>
+        <div className='h-screen basis-1/2 flex flex-col justify-between md:sticky md:top-0'>
           <div>
             <Bio />
             <Navigation />
@@ -26,7 +28,7 @@ const App = () => {
             <Footer />
           </div>
         </div>
-        <div className='px-10 pt-10 md:px-14 md:pt-14 lg:px-20 lg:pt-20 md:h-screen md:overflow-y-scroll'>
+        <div className='min-h-screen basis-1/2'>
           {/* Routes list */}
           <Routes>
             <Route path='/' element={<Home />} />
@@ -35,7 +37,7 @@ const App = () => {
             <Route path='skills' element={<Skills />} />
           </Routes>
         </div>
-        <div className='p-10 mt-auto md:p-14 lg:p-20 md:hidden'>
+        <div className='mt-auto md:hidden'>
             {/* Footer for small screen only */}
             <Footer />
         </div>
