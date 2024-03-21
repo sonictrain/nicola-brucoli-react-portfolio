@@ -1,7 +1,7 @@
 // Signature component to be rendered on all the pages
 const Signature = () => {
     return (
-        <p className='text-md py-10 mt-auto md:py-14 lg:py-20 text-stone-900'>Designed in 
+        <p className='flex-none text-md mt-auto pt-20 text-stone-900'>Designed in 
             <a href={'https://figma.com/'}              className="text-stone-700 hover:text-accent-200 hover:shadow-accent-200"> Figma</a> and coded in 
             <a href={'https://code.visualstudio.com/'}  className="text-stone-700 hover:text-accent-200 hover:shadow-accent-200"> Visual Studio Code</a> by me. Built with 
             <a href={'https://react.dev/'}              className="text-stone-700 hover:text-accent-200 hover:shadow-accent-200"> React</a>, 

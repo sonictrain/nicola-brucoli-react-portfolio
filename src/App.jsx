@@ -18,7 +18,8 @@ const App = () => {
       <ThemeSwitch />
       {/* Router setup */}
       <Router>
-        <div className='h-screen basis-1/2 flex flex-col justify-between md:sticky md:top-0'>
+        {/* Left column */}
+        <div className='h-screen basis-1/2 flex flex-col justify-between md:sticky md:top-0 p-10 lg:p-20'>
           <div>
             <Bio />
             <Navigation />
@@ -28,7 +29,8 @@ const App = () => {
             <Footer />
           </div>
         </div>
-        <div className='min-h-screen basis-1/2'>
+        {/* Right column */}
+        <div className='min-h-screen basis-1/2 p-10 lg:p-20'>
           {/* Routes list */}
           <Routes>
             <Route path='/' element={<Home />} />
@@ -37,7 +39,7 @@ const App = () => {
             <Route path='skills' element={<Skills />} />
           </Routes>
         </div>
-        <div className='mt-auto md:hidden'>
+        <div className='mt-auto md:hidden p-10'>
             {/* Footer for small screen only */}
             <Footer />
         </div>
